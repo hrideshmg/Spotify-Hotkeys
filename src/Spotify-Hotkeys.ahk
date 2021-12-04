@@ -25,8 +25,6 @@ Loop,
 }
 
 ;Hotkeys can be changed by referring to this list: https://www.autohotkey.com/docs/KeyList.htm
-!NumpadAdd::run, nircmd changeappvolume spotify.exe +%offset%
-!NumpadSub::run, nircmd changeappvolume spotify.exe -%offset%
 !Numpad1::Media_Prev
 !Numpad2::Media_Play_Pause
 !Numpad3::Media_Next
