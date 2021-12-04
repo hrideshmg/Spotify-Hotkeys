@@ -23,13 +23,11 @@ Loop,
         ExitApp
     }   
 }
-
 ;Hotkeys can be changed by referring to this list: https://www.autohotkey.com/docs/KeyList.htm
-!NumpadAdd::run, nircmd changeappvolume spotify.exe +%offset%
-!NumpadSub::run, nircmd changeappvolume spotify.exe -%offset%
-!Numpad1::Media_Prev
-!Numpad2::Media_Play_Pause
-!Numpad3::Media_Next
+!Left::Media_Prev
+!Up::Media_Play_Pause
+!Right::Media_Next
+
 
 #if FileExist("nircmd.exe")
 MsgBox, FileExist("nircmd")
