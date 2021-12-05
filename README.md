@@ -3,9 +3,9 @@ Global hotkeys with play, pause, next track, previous track and app specific vol
 ## Installation/Usaage
 Download the release, extract it and just run Spotify-Hotkeys.exe. The app will then launch spotify automatically and it will exit itself if spotify is closed, you can make a shortcut to the exe and place it on the desktop or taskbar.
 ## Default Hotkeys
-Alt + Numpad 1️⃣: Prev track\
-Alt + Numpad 2️⃣ Pause/Play\
-Alt + Numpad 3️⃣: Next track\
+Alt + ⬅️: Prev track\
+Alt + ⬆️: Pause/Play\
+Alt + ➡️: Next track\
 Alt + Numpad ➖: Increase Volume\
 Alt + Numpad ➕: Decrease volume
 ## Description
