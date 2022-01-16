@@ -13,7 +13,6 @@
 ;Determines how much the volume slider is increased on the each key press, 1 corresponds to the maximum increase
 offset := 0.04 
 run, %comspec% /c %A_appdata%\Spotify\Spotify.exe,,hide
-;Checks if spotify is running every three seconds and if it isnt, kills the script.
 Loop, 
 {
     sleep, 3000
