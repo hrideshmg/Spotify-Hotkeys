@@ -29,7 +29,6 @@ Loop,
 !Numpad3::Media_Next
 
 #if FileExist("nircmd.exe")
-MsgBox, FileExist("nircmd")
 !NumpadAdd::run, nircmd changeappvolume spotify.exe +%offset%
 !NumpadSub::run, nircmd changeappvolume spotify.exe -%offset%  
 
