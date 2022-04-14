@@ -6,7 +6,6 @@
 ;; running directory                                                                                           ;;
 ;; Written by: Hridesh Mg                                                                                      ;;
 ;;=============================================================================================================;;
-;; test change 4
 #SingleInstance, force
 #NoTrayIcon
 
